@@ -62,8 +62,6 @@ F 14 ".5 mm[.0197 in]" H 5200 4000 50  0001 L BNN "Champ14"
 	2    5200 4000
 	1    0    0    -1  
 $EndComp
-Text HLabel 1800 600  0    50   Input ~ 0
-VCC_IN
 Wire Wire Line
 	1800 600  1800 700 
 Connection ~ 1800 700 
@@ -72,8 +70,6 @@ Wire Wire Line
 Connection ~ 1800 800 
 Wire Wire Line
 	1800 800  1800 900 
-Text HLabel 2800 600  2    50   Input ~ 0
-VCC_IN
 Wire Wire Line
 	2800 900  2800 800 
 Connection ~ 2800 700 
@@ -1102,11 +1098,7 @@ NoConn ~ 2800 2400
 NoConn ~ 2800 2500
 NoConn ~ 2800 2600
 NoConn ~ 2800 3600
-NoConn ~ 2800 3500
-NoConn ~ 2800 3400
 NoConn ~ 2800 3300
-NoConn ~ 2800 3200
-NoConn ~ 2800 3100
 NoConn ~ 2800 3000
 NoConn ~ 2800 2900
 NoConn ~ 2800 2800
@@ -1125,18 +1117,9 @@ NoConn ~ 2800 4600
 NoConn ~ 2800 4700
 Text HLabel 2800 4900 2    50   Output ~ 0
 PWM0_BL
-Text HLabel 2800 5000 2    50   Output ~ 0
-GPIO4_C6_PWM1
 NoConn ~ 2800 5200
-NoConn ~ 2800 5400
-NoConn ~ 2800 5500
-NoConn ~ 2800 5600
-NoConn ~ 2800 5700
-NoConn ~ 2800 5800
-NoConn ~ 2800 5900
-NoConn ~ 2800 6100
 Text Notes 9300 3650 0    50   ~ 0
-TODO :\nFan\nUart debug\nRTC\nUser leds\nHeader Pi compatible ?\nIMU 9 dof\nuart pour gps ?
+TODO :\nRTC\nUser leds\nHeader Pi compatible ?\nIMU 9 dof
 NoConn ~ 2800 1800
 NoConn ~ 2800 1900
 NoConn ~ 2800 2000
@@ -1200,4 +1183,280 @@ Text HLabel 4700 4400 0    50   Output ~ 0
 TYPE-C1_SBU2_DC
 Text HLabel 4700 4500 0    50   Input ~ 0
 TYPE-C1_U2VBUSDET
+$Comp
+L power:+12V #PWR?
+U 1 1 5E2B5850
+P 1800 600
+F 0 "#PWR?" H 1800 450 50  0001 C CNN
+F 1 "+12V" V 1815 728 50  0000 L CNN
+F 2 "" H 1800 600 50  0001 C CNN
+F 3 "" H 1800 600 50  0001 C CNN
+	1    1800 600 
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1800 600 
+$Comp
+L power:+12V #PWR?
+U 1 1 5E2BD5E6
+P 2800 600
+F 0 "#PWR?" H 2800 450 50  0001 C CNN
+F 1 "+12V" V 2815 728 50  0000 L CNN
+F 2 "" H 2800 600 50  0001 C CNN
+F 3 "" H 2800 600 50  0001 C CNN
+	1    2800 600 
+	0    1    1    0   
+$EndComp
+Connection ~ 2800 600 
+$Comp
+L power:+12V #PWR?
+U 1 1 5E2CDEFB
+P 10700 5700
+F 0 "#PWR?" H 10700 5550 50  0001 C CNN
+F 1 "+12V" H 10715 5873 50  0000 C CNN
+F 2 "" H 10700 5700 50  0001 C CNN
+F 3 "" H 10700 5700 50  0001 C CNN
+	1    10700 5700
+	1    0    0    -1  
+$EndComp
+Text Label 2800 5000 0    50   ~ 0
+GPIO4_C6_PWM1
+Text Label 9900 5300 2    50   ~ 0
+GPIO4_C6_PWM1
+$Comp
+L Device:Q_PMOS_GDS Q?
+U 1 1 5E2F0381
+P 10600 5900
+F 0 "Q?" H 10805 5946 50  0000 L CNN
+F 1 "AO3415A" H 10805 5855 50  0000 L CNN
+F 2 "" H 10800 6000 50  0001 C CNN
+F 3 "~" H 10600 5900 50  0001 C CNN
+	1    10600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:MMBT3904 Q?
+U 1 1 5E313773
+P 9900 5800
+F 0 "Q?" V 10135 5800 50  0000 C CNN
+F 1 "MMBT3904" V 10226 5800 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10100 5725 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 9900 5800 50  0001 L CNN
+	1    9900 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E31B347
+P 10550 5700
+F 0 "R?" V 10343 5700 50  0000 C CNN
+F 1 "10K" V 10434 5700 50  0000 C CNN
+F 2 "" V 10480 5700 50  0001 C CNN
+F 3 "~" H 10550 5700 50  0001 C CNN
+	1    10550 5700
+	0    1    1    0   
+$EndComp
+Connection ~ 10700 5700
+Wire Wire Line
+	10400 5700 10400 5900
+$Comp
+L Device:R R?
+U 1 1 5E33BCB7
+P 10250 5900
+F 0 "R?" V 10043 5900 50  0000 C CNN
+F 1 "10K" V 10134 5900 50  0000 C CNN
+F 2 "" V 10180 5900 50  0001 C CNN
+F 3 "~" H 10250 5900 50  0001 C CNN
+	1    10250 5900
+	0    1    1    0   
+$EndComp
+Connection ~ 10400 5900
+$Comp
+L Device:R R?
+U 1 1 5E35A288
+P 9900 5450
+F 0 "R?" H 9970 5496 50  0000 L CNN
+F 1 "10K" H 9970 5405 50  0000 L CNN
+F 2 "" V 9830 5450 50  0001 C CNN
+F 3 "~" H 9900 5450 50  0001 C CNN
+	1    9900 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E3695E9
+P 9700 5900
+F 0 "#PWR?" H 9700 5650 50  0001 C CNN
+F 1 "GND" V 9705 5772 50  0000 R CNN
+F 2 "" H 9700 5900 50  0001 C CNN
+F 3 "" H 9700 5900 50  0001 C CNN
+	1    9700 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 5E37BA97
+P 10700 6500
+F 0 "J?" V 10546 6648 50  0000 L CNN
+F 1 "FAN1" V 10637 6648 50  0000 L CNN
+F 2 "" H 10700 6500 50  0001 C CNN
+F 3 "~" H 10700 6500 50  0001 C CNN
+	1    10700 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E37E7F5
+P 10800 6300
+F 0 "#PWR?" H 10800 6050 50  0001 C CNN
+F 1 "GND" H 10805 6127 50  0000 C CNN
+F 2 "" H 10800 6300 50  0001 C CNN
+F 3 "" H 10800 6300 50  0001 C CNN
+	1    10800 6300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10700 6100 10700 6300
+NoConn ~ 10600 6300
+Text Notes 10400 5300 0    50   ~ 0
+TODO : \nCheck transistor
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 5E394C90
+P 8600 5950
+F 0 "J?" H 8628 5926 50  0000 L CNN
+F 1 "DBG_UART1" H 8628 5835 50  0000 L CNN
+F 2 "" H 8600 5950 50  0001 C CNN
+F 3 "~" H 8600 5950 50  0001 C CNN
+	1    8600 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E3972FD
+P 8400 5850
+F 0 "#PWR?" H 8400 5600 50  0001 C CNN
+F 1 "GND" V 8405 5722 50  0000 R CNN
+F 2 "" H 8400 5850 50  0001 C CNN
+F 3 "" H 8400 5850 50  0001 C CNN
+	1    8400 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E398978
+P 8400 5950
+F 0 "#PWR?" H 8400 5800 50  0001 C CNN
+F 1 "+5V" V 8415 6078 50  0000 L CNN
+F 2 "" H 8400 5950 50  0001 C CNN
+F 3 "" H 8400 5950 50  0001 C CNN
+	1    8400 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E39A931
+P 8250 6150
+F 0 "R?" V 8300 6300 50  0000 C CNN
+F 1 "33R" V 8250 6150 50  0000 C CNN
+F 2 "" V 8180 6150 50  0001 C CNN
+F 3 "~" H 8250 6150 50  0001 C CNN
+	1    8250 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E39E601
+P 8250 6050
+F 0 "R?" V 8200 6200 50  0000 C CNN
+F 1 "33R" V 8250 6050 50  0000 C CNN
+F 2 "" V 8180 6050 50  0001 C CNN
+F 3 "~" H 8250 6050 50  0001 C CNN
+	1    8250 6050
+	0    1    1    0   
+$EndComp
+Text Label 2800 3200 0    50   ~ 0
+UART2DBG_RX
+Text Label 2800 3100 0    50   ~ 0
+UART2DBG_TX
+Text Label 8100 6150 2    50   ~ 0
+UART2DBG_RX
+Text Label 8100 6050 2    50   ~ 0
+UART2DBG_TX
+Text Label 2800 3400 0    50   ~ 0
+UART4_TX
+Text Label 2800 3500 0    50   ~ 0
+UART4_RX
+Text Label 8100 5550 2    50   ~ 0
+UART4_TX
+Text Label 8100 5650 2    50   ~ 0
+UART4_RX
+$Comp
+L Device:R R?
+U 1 1 5E40AEA8
+P 8250 5650
+F 0 "R?" V 8300 5800 50  0000 C CNN
+F 1 "33R" V 8250 5650 50  0000 C CNN
+F 2 "" V 8180 5650 50  0001 C CNN
+F 3 "~" H 8250 5650 50  0001 C CNN
+	1    8250 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E40AEAE
+P 8250 5550
+F 0 "R?" V 8200 5700 50  0000 C CNN
+F 1 "33R" V 8250 5550 50  0000 C CNN
+F 2 "" V 8180 5550 50  0001 C CNN
+F 3 "~" H 8250 5550 50  0001 C CNN
+	1    8250 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E413784
+P 8400 5350
+F 0 "#PWR?" H 8400 5100 50  0001 C CNN
+F 1 "GND" V 8405 5222 50  0000 R CNN
+F 2 "" H 8400 5350 50  0001 C CNN
+F 3 "" H 8400 5350 50  0001 C CNN
+	1    8400 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E414617
+P 8400 5450
+F 0 "#PWR?" H 8400 5300 50  0001 C CNN
+F 1 "+3.3V" V 8415 5578 50  0000 L CNN
+F 2 "" H 8400 5450 50  0001 C CNN
+F 3 "" H 8400 5450 50  0001 C CNN
+	1    8400 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 5E417301
+P 8600 5450
+F 0 "J?" H 8628 5426 50  0000 L CNN
+F 1 "GPS" H 8628 5335 50  0000 L CNN
+F 2 "" H 8600 5450 50  0001 C CNN
+F 3 "~" H 8600 5450 50  0001 C CNN
+	1    8600 5450
+	1    0    0    -1  
+$EndComp
+Text HLabel 2800 5400 2    50   BiDi ~ 0
+SDMMC0_D0
+Text HLabel 2800 5500 2    50   BiDi ~ 0
+SDMMC0_D1
+Text HLabel 2800 5600 2    50   BiDi ~ 0
+SDMMC0_D2
+Text HLabel 2800 5700 2    50   BiDi ~ 0
+SDMMC0_D3
+Text HLabel 2800 5800 2    50   BiDi ~ 0
+SDMMC0_CMD
+Text HLabel 2800 5900 2    50   Input ~ 0
+SDMMC0_DET_L
+Text HLabel 2800 6100 2    50   Output ~ 0
+SDMMC0_CLK
 $EndSCHEMATC
