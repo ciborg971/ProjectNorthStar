@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name 2309411-2)(type Legacy)(uri ${KIPRJMOD}/lib/2309411-2.lib)(options "")(descr ""))
+  (lib (name 2041119-1)(type Legacy)(uri ${KIPRJMOD}/lib/2041119-1.lib)(options "")(descr ""))
+  (lib (name 2290741-1)(type Legacy)(uri ${KIPRJMOD}/lib/2290741-1.lib)(options "")(descr ""))
+  (lib (name MP2143DJ-LF-Z)(type Legacy)(uri ${KIPRJMOD}/lib/MP2143DJ-LF-Z.lib)(options "")(descr ""))
+  (lib (name sb)(type Legacy)(uri ${KIPRJMOD}/lib/sb.lib)(options "")(descr ""))
+)

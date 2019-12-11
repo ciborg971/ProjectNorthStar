@@ -1,0 +1,657 @@
+EESchema Schematic File Version 4
+LIBS:Standalone Board-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5E0137CF
+P 3250 7100
+F 0 "H?" H 3350 7149 50  0000 L CNN
+F 1 "3.2Mounting" H 3350 7058 50  0000 L CNN
+F 2 "" H 3250 7100 50  0001 C CNN
+F 3 "~" H 3250 7100 50  0001 C CNN
+	1    3250 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E017518
+P 3250 7200
+F 0 "#PWR?" H 3250 6950 50  0001 C CNN
+F 1 "GND" H 3255 7027 50  0000 C CNN
+F 2 "" H 3250 7200 50  0001 C CNN
+F 3 "" H 3250 7200 50  0001 C CNN
+	1    3250 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2041119-1:2041119-1 J?
+U 1 1 5E023CCD
+P 2600 4100
+F 0 "J?" H 2600 5367 50  0000 C CNN
+F 1 "2041119-1" H 2600 5276 50  0000 C CNN
+F 2 "TE_2041119-1" H 2600 4100 50  0001 L BNN
+F 3 "Unavailable" H 2600 4100 50  0001 L BNN
+F 4 "2041119-1" H 2600 4100 50  0001 L BNN "Champ4"
+F 5 "None" H 2600 4100 50  0001 L BNN "Champ5"
+F 6 "2041119-1" H 2600 4100 50  0001 L BNN "Champ6"
+F 7 "Conn Mini PCI Express Card Edge SKT 52 POS Solder RA SMD T/R" H 2600 4100 50  0001 L BNN "Champ7"
+F 8 "Connector" H 2600 4100 50  0001 L BNN "Champ8"
+F 9 "https://www.te.com/usa-en/product-2041119-1.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 2600 4100 50  0001 L BNN "Champ9"
+F 10 "None" H 2600 4100 50  0001 L BNN "Champ10"
+F 11 ".8 mm[.031 in]" H 2600 4100 50  0001 L BNN "Champ11"
+F 12 "TE Connectivity" H 2600 4100 50  0001 L BNN "Champ12"
+F 13 "52" H 2600 4100 50  0001 L BNN "Champ13"
+	1    2600 4100
+	1    0    0    -1  
+$EndComp
+Text HLabel 1700 4300 0    50   Input ~ 0
+PCIE_TX_D0_N
+Text HLabel 1700 4200 0    50   Input ~ 0
+PCIE_TX_D0_P
+Text HLabel 1700 4000 0    50   Output ~ 0
+PCIE_RX_D0_P
+Text HLabel 1700 4100 0    50   Output ~ 0
+PCIE_RX_D0_N
+Text HLabel 1700 4500 0    50   BiDi ~ 0
+USB_D_N
+Text HLabel 1700 4400 0    50   BiDi ~ 0
+USB_D_P
+$Comp
+L power:GND #PWR?
+U 1 1 5E0286BE
+P 3500 4950
+F 0 "#PWR?" H 3500 4700 50  0001 C CNN
+F 1 "GND" V 3505 4822 50  0000 R CNN
+F 2 "" H 3500 4950 50  0001 C CNN
+F 3 "" H 3500 4950 50  0001 C CNN
+	1    3500 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3500 4900 3500 4950
+Connection ~ 3500 4950
+Wire Wire Line
+	3500 4950 3500 5000
+NoConn ~ 3500 4400
+NoConn ~ 3500 4500
+NoConn ~ 3500 4600
+NoConn ~ 1700 4700
+Text Label 1400 3400 2    50   ~ 0
+VDD_4G_3.3V
+$Comp
+L Device:R R?
+U 1 1 5E02A315
+P 1550 3400
+F 0 "R?" V 1450 3400 50  0000 C CNN
+F 1 "100K" V 1550 3400 50  0000 C CNN
+F 2 "" V 1480 3400 50  0001 C CNN
+F 3 "~" H 1550 3400 50  0001 C CNN
+	1    1550 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L 2290741-1:2290741-1 J?
+U 1 1 5E02F41B
+P 5700 4000
+F 0 "J?" H 5750 4100 50  0000 L CNN
+F 1 "2290741-1" H 5600 4000 50  0000 L CNN
+F 2 "TE_2290741-1" H 5700 4000 50  0001 L BNN
+F 3 "None" H 5700 4000 50  0001 L BNN
+F 4 "TE Connectivity" H 5700 4000 50  0001 L BNN "Champ4"
+F 5 "None" H 5700 4000 50  0001 L BNN "Champ5"
+F 6 "2290741-1" H 5700 4000 50  0001 L BNN "Champ6"
+F 7 "Unavailable" H 5700 4000 50  0001 L BNN "Champ7"
+F 8 "https://www.te.com/usa-en/product-2290741-1.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 5700 4000 50  0001 L BNN "Champ8"
+F 9 "Conn Micro SD/Nano SIM Combo Connector SKT 20 POS 1.1mm/2.54mm Solder RA SMD 0.3A/Contact T/R" H 5700 4000 50  0001 L BNN "Champ9"
+F 10 "2290741-1" H 5700 4000 50  0001 L BNN "Champ10"
+F 11 "Compliant" H 5700 4000 50  0001 L BNN "Champ11"
+	1    5700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0324C6
+P 5100 5200
+F 0 "#PWR?" H 5100 4950 50  0001 C CNN
+F 1 "GND" V 5105 5072 50  0000 R CNN
+F 2 "" H 5100 5200 50  0001 C CNN
+F 3 "" H 5100 5200 50  0001 C CNN
+	1    5100 5200
+	0    1    1    0   
+$EndComp
+NoConn ~ 5100 4700
+NoConn ~ 5100 4600
+NoConn ~ 5100 4800
+NoConn ~ 5100 4900
+NoConn ~ 5100 5000
+NoConn ~ 5100 4300
+Text Label 5100 4400 2    50   ~ 0
+USIM_DATA
+Text Label 5100 4200 2    50   ~ 0
+USIM_CLK
+Text Label 5100 4100 2    50   ~ 0
+USIM_RST
+Text Label 5100 4000 2    50   ~ 0
+USIM_VCC
+Text Label 3900 3800 0    50   ~ 0
+USIM_DATA
+Text Label 3900 3600 0    50   ~ 0
+USIM_CLK
+Text Label 3900 3700 0    50   ~ 0
+USIM_RST
+Text Label 3500 3400 0    50   ~ 0
+USIM_VCC
+$Comp
+L Device:C C?
+U 1 1 5E037132
+P 1150 950
+F 0 "C?" H 1265 996 50  0000 L CNN
+F 1 "3.3pF-50V" H 1265 905 50  0000 L CNN
+F 2 "" H 1188 800 50  0001 C CNN
+F 3 "~" H 1150 950 50  0001 C CNN
+	1    1150 950 
+	1    0    0    -1  
+$EndComp
+Text Label 2950 800  2    50   ~ 0
+USIM_DATA
+Text Label 2050 800  2    50   ~ 0
+USIM_CLK
+Text Label 1150 800  2    50   ~ 0
+USIM_RST
+$Comp
+L power:GND #PWR?
+U 1 1 5E0396D2
+P 1150 1100
+F 0 "#PWR?" H 1150 850 50  0001 C CNN
+F 1 "GND" H 1155 927 50  0000 C CNN
+F 2 "" H 1150 1100 50  0001 C CNN
+F 3 "" H 1150 1100 50  0001 C CNN
+	1    1150 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E03A692
+P 2050 950
+F 0 "C?" H 2165 996 50  0000 L CNN
+F 1 "3.3pF-50V" H 2165 905 50  0000 L CNN
+F 2 "" H 2088 800 50  0001 C CNN
+F 3 "~" H 2050 950 50  0001 C CNN
+	1    2050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E03A698
+P 2050 1100
+F 0 "#PWR?" H 2050 850 50  0001 C CNN
+F 1 "GND" H 2055 927 50  0000 C CNN
+F 2 "" H 2050 1100 50  0001 C CNN
+F 3 "" H 2050 1100 50  0001 C CNN
+	1    2050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E03C1A3
+P 2950 950
+F 0 "C?" H 3065 996 50  0000 L CNN
+F 1 "3.3pF-50V" H 3065 905 50  0000 L CNN
+F 2 "" H 2988 800 50  0001 C CNN
+F 3 "~" H 2950 950 50  0001 C CNN
+	1    2950 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E03C1A9
+P 2950 1100
+F 0 "#PWR?" H 2950 850 50  0001 C CNN
+F 1 "GND" H 2955 927 50  0000 C CNN
+F 2 "" H 2950 1100 50  0001 C CNN
+F 3 "" H 2950 1100 50  0001 C CNN
+	1    2950 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E040AD8
+P 3650 3700
+F 0 "R?" V 3600 3550 50  0000 C CNN
+F 1 "33R" V 3650 3700 50  0000 C CNN
+F 2 "" V 3580 3700 50  0001 C CNN
+F 3 "~" H 3650 3700 50  0001 C CNN
+	1    3650 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E041ABD
+P 3650 3600
+F 0 "R?" V 3600 3450 50  0000 C CNN
+F 1 "33R" V 3650 3600 50  0000 C CNN
+F 2 "" V 3580 3600 50  0001 C CNN
+F 3 "~" H 3650 3600 50  0001 C CNN
+	1    3650 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E041C4F
+P 3650 3800
+F 0 "R?" V 3600 3650 50  0000 C CNN
+F 1 "33R" V 3650 3800 50  0000 C CNN
+F 2 "" V 3580 3800 50  0001 C CNN
+F 3 "~" H 3650 3800 50  0001 C CNN
+	1    3650 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 3600 3900 3600
+Wire Wire Line
+	3900 3700 3800 3700
+Wire Wire Line
+	3800 3800 3900 3800
+Text HLabel 1700 3800 0    50   Input ~ 0
+PCIE_CLK_P
+Text HLabel 1700 3900 0    50   Input ~ 0
+PCIE_CLK_N
+NoConn ~ 3500 3500
+NoConn ~ 3500 3900
+Text HLabel 1200 7000 2    50   Input ~ 0
+MPCIE_RST
+Text Label 1200 6700 2    50   ~ 0
+VDD_4G_3.3V
+$Comp
+L Device:R R?
+U 1 1 5E058B07
+P 1200 6850
+F 0 "R?" H 900 6800 50  0000 C CNN
+F 1 "100K" H 900 6900 50  0000 C CNN
+F 2 "" V 1130 6850 50  0001 C CNN
+F 3 "~" H 1200 6850 50  0001 C CNN
+	1    1200 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E05AE20
+P 1200 7150
+F 0 "C?" H 900 7150 50  0000 C CNN
+F 1 "0.1uF 16V" H 900 7250 50  0000 C CNN
+F 2 "" H 1238 7000 50  0001 C CNN
+F 3 "~" H 1200 7150 50  0001 C CNN
+	1    1200 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E05B5E0
+P 1200 7300
+F 0 "#PWR?" H 1200 7050 50  0001 C CNN
+F 1 "GND" V 1205 7172 50  0000 R CNN
+F 2 "" H 1200 7300 50  0001 C CNN
+F 3 "" H 1200 7300 50  0001 C CNN
+	1    1200 7300
+	1    0    0    -1  
+$EndComp
+Text HLabel 3500 4000 2    50   Input ~ 0
+MPCIE_RST
+NoConn ~ 3500 4100
+NoConn ~ 3500 4200
+NoConn ~ 1700 3500
+NoConn ~ 1700 3600
+Text Notes 1150 3600 0    50   ~ 0
+OEM Specific
+$Comp
+L power:GND #PWR?
+U 1 1 5E074F2A
+P 1700 3700
+F 0 "#PWR?" H 1700 3450 50  0001 C CNN
+F 1 "GND" V 1705 3572 50  0000 R CNN
+F 2 "" H 1700 3700 50  0001 C CNN
+F 3 "" H 1700 3700 50  0001 C CNN
+	1    1700 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E0787C0
+P 3900 950
+F 0 "C?" H 4015 996 50  0000 L CNN
+F 1 "1uF 6.3V" H 4015 905 50  0000 L CNN
+F 2 "" H 3938 800 50  0001 C CNN
+F 3 "~" H 3900 950 50  0001 C CNN
+	1    3900 950 
+	1    0    0    -1  
+$EndComp
+Text Label 3900 800  2    50   ~ 0
+USIM_VCC
+$Comp
+L power:GND #PWR?
+U 1 1 5E0793CC
+P 3900 1100
+F 0 "#PWR?" H 3900 850 50  0001 C CNN
+F 1 "GND" H 3905 927 50  0000 C CNN
+F 2 "" H 3900 1100 50  0001 C CNN
+F 3 "" H 3900 1100 50  0001 C CNN
+	1    3900 1100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3500 3100
+Text Label 3500 3200 0    50   ~ 0
+VDD_4G_3.3V
+Text Notes 600  3200 0    50   ~ 0
+TODO :\ncheck if it can be GPIO enbaled\nto save some power
+Text Notes 4750 3250 0    50   ~ 0
+TODO :\nSDCARD
+Text Label 5050 800  2    50   ~ 0
+VDD_4G_3.3V
+$Comp
+L Device:C C?
+U 1 1 5E098685
+P 5050 950
+F 0 "C?" H 5165 996 50  0000 L CNN
+F 1 "22uF 10V" H 5165 905 50  0000 L CNN
+F 2 "" H 5088 800 50  0001 C CNN
+F 3 "~" H 5050 950 50  0001 C CNN
+	1    5050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E0992E6
+P 5750 950
+F 0 "C?" H 5865 996 50  0000 L CNN
+F 1 "22uF 10V" H 5865 905 50  0000 L CNN
+F 2 "" H 5788 800 50  0001 C CNN
+F 3 "~" H 5750 950 50  0001 C CNN
+	1    5750 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E099EC7
+P 6400 950
+F 0 "C?" H 6515 996 50  0000 L CNN
+F 1 "0.1uF 16V" H 6515 905 50  0000 L CNN
+F 2 "" H 6438 800 50  0001 C CNN
+F 3 "~" H 6400 950 50  0001 C CNN
+	1    6400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E09A5C4
+P 7050 950
+F 0 "C?" H 7165 996 50  0000 L CNN
+F 1 "0.1uF 16V" H 7165 905 50  0000 L CNN
+F 2 "" H 7088 800 50  0001 C CNN
+F 3 "~" H 7050 950 50  0001 C CNN
+	1    7050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E09A755
+P 7750 950
+F 0 "C?" H 7865 996 50  0000 L CNN
+F 1 "0.1uF 16V" H 7865 905 50  0000 L CNN
+F 2 "" H 7788 800 50  0001 C CNN
+F 3 "~" H 7750 950 50  0001 C CNN
+	1    7750 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E09B0FE
+P 5050 1100
+F 0 "#PWR?" H 5050 850 50  0001 C CNN
+F 1 "GND" H 5055 927 50  0000 C CNN
+F 2 "" H 5050 1100 50  0001 C CNN
+F 3 "" H 5050 1100 50  0001 C CNN
+	1    5050 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1100 5750 1100
+Connection ~ 5050 1100
+Connection ~ 5750 1100
+Wire Wire Line
+	5750 1100 6400 1100
+Connection ~ 6400 1100
+Wire Wire Line
+	6400 1100 7050 1100
+Connection ~ 7050 1100
+Wire Wire Line
+	7050 1100 7750 1100
+Wire Wire Line
+	7750 800  7050 800 
+Connection ~ 5750 800 
+Wire Wire Line
+	5750 800  5050 800 
+Connection ~ 6400 800 
+Wire Wire Line
+	6400 800  5750 800 
+Connection ~ 7050 800 
+Wire Wire Line
+	7050 800  6400 800 
+$Comp
+L MP2143DJ-LF-Z:MP2143DJ-LF-Z U?
+U 1 1 5E0A8B62
+P 8200 4100
+F 0 "U?" H 8200 4867 50  0000 C CNN
+F 1 "MP2143DJ-LF-Z" H 8200 4776 50  0000 C CNN
+F 2 "SOT65P280X100-8N" H 8200 4100 50  0001 L BNN
+F 3 "Monolithic Power" H 8200 4100 50  0001 L BNN
+F 4 "None" H 8200 4100 50  0001 L BNN "Champ4"
+F 5 "MP2143DJ-LF-Z" H 8200 4100 50  0001 L BNN "Champ5"
+F 6 "TSOT-23 Monolithic Power Systems" H 8200 4100 50  0001 L BNN "Champ6"
+F 7 "Unavailable" H 8200 4100 50  0001 L BNN "Champ7"
+F 8 "MP2143 Series 5.5 V 3 A 1.2 MHz Synchronous Step Down Switcher - TSOT23-8" H 8200 4100 50  0001 L BNN "Champ8"
+	1    8200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E0AA56C
+P 6650 3700
+F 0 "#PWR?" H 6650 3550 50  0001 C CNN
+F 1 "+5V" H 6665 3873 50  0000 C CNN
+F 2 "" H 6650 3700 50  0001 C CNN
+F 3 "" H 6650 3700 50  0001 C CNN
+	1    6650 3700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E0B94DE
+P 6650 3550
+F 0 "C?" H 6765 3596 50  0000 L CNN
+F 1 "22uF 10V" H 6765 3505 50  0000 L CNN
+F 2 "" H 6688 3400 50  0001 C CNN
+F 3 "~" H 6650 3550 50  0001 C CNN
+	1    6650 3550
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E0BC0D1
+P 7250 3550
+F 0 "C?" H 7365 3596 50  0000 L CNN
+F 1 "0.1uF 16V" H 7365 3505 50  0000 L CNN
+F 2 "" H 7288 3400 50  0001 C CNN
+F 3 "~" H 7250 3550 50  0001 C CNN
+	1    7250 3550
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E0C06F5
+P 7450 4100
+F 0 "R?" V 7243 4100 50  0000 C CNN
+F 1 "100K" V 7334 4100 50  0000 C CNN
+F 2 "" V 7380 4100 50  0001 C CNN
+F 3 "~" H 7450 4100 50  0001 C CNN
+	1    7450 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 3700 7250 3700
+Connection ~ 6650 3700
+Connection ~ 7250 3700
+Wire Wire Line
+	7250 3700 6650 3700
+Wire Wire Line
+	7250 3700 7250 4100
+Wire Wire Line
+	7250 4100 7300 4100
+$Comp
+L power:GND #PWR?
+U 1 1 5E0C8498
+P 6950 3400
+F 0 "#PWR?" H 6950 3150 50  0001 C CNN
+F 1 "GND" H 6955 3227 50  0000 C CNN
+F 2 "" H 6950 3400 50  0001 C CNN
+F 3 "" H 6950 3400 50  0001 C CNN
+	1    6950 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7250 3400 6950 3400
+Connection ~ 6950 3400
+Wire Wire Line
+	6950 3400 6650 3400
+NoConn ~ 7600 4300
+$Comp
+L power:GND #PWR?
+U 1 1 5E0C9766
+P 8800 4550
+F 0 "#PWR?" H 8800 4300 50  0001 C CNN
+F 1 "GND" V 8805 4422 50  0000 R CNN
+F 2 "" H 8800 4550 50  0001 C CNN
+F 3 "" H 8800 4550 50  0001 C CNN
+	1    8800 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8800 4500 8800 4550
+Connection ~ 8800 4550
+Wire Wire Line
+	8800 4550 8800 4600
+$Comp
+L Device:R R?
+U 1 1 5E0CA8F6
+P 9200 3950
+F 0 "R?" H 9270 3996 50  0000 L CNN
+F 1 "33K 1%" H 9270 3905 50  0000 L CNN
+F 2 "" V 9130 3950 50  0001 C CNN
+F 3 "~" H 9200 3950 50  0001 C CNN
+	1    9200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E0CAC39
+P 9200 4250
+F 0 "R?" H 9270 4296 50  0000 L CNN
+F 1 "6.8K 1%" H 9270 4205 50  0000 L CNN
+F 2 "" V 9130 4250 50  0001 C CNN
+F 3 "~" H 9200 4250 50  0001 C CNN
+	1    9200 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 4100 8800 4100
+Connection ~ 9200 4100
+$Comp
+L power:GND #PWR?
+U 1 1 5E0CE2D9
+P 9200 4400
+F 0 "#PWR?" H 9200 4150 50  0001 C CNN
+F 1 "GND" H 9205 4227 50  0000 C CNN
+F 2 "" H 9200 4400 50  0001 C CNN
+F 3 "" H 9200 4400 50  0001 C CNN
+	1    9200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5E0CEFF6
+P 8950 3700
+F 0 "L?" V 8750 3750 50  0000 C CNN
+F 1 "DFE252010P-1R0M=P2" V 8850 3800 50  0000 C CNN
+F 2 "" H 8950 3700 50  0001 C CNN
+F 3 "~" H 8950 3700 50  0001 C CNN
+	1    8950 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9100 3700 9200 3700
+Wire Wire Line
+	9200 3700 9200 3800
+Wire Wire Line
+	8800 3900 9100 3900
+Wire Wire Line
+	9100 3900 9100 3700
+Connection ~ 9100 3700
+$Comp
+L Device:C C?
+U 1 1 5E0D1190
+P 9750 3850
+F 0 "C?" H 9865 3896 50  0000 L CNN
+F 1 "22uF 10V" H 9865 3805 50  0000 L CNN
+F 2 "" H 9788 3700 50  0001 C CNN
+F 3 "~" H 9750 3850 50  0001 C CNN
+	1    9750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E0DF799
+P 10350 3850
+F 0 "C?" H 10465 3896 50  0000 L CNN
+F 1 "22uF 10V" H 10465 3805 50  0000 L CNN
+F 2 "" H 10388 3700 50  0001 C CNN
+F 3 "~" H 10350 3850 50  0001 C CNN
+	1    10350 3850
+	1    0    0    -1  
+$EndComp
+Text Label 10350 3700 0    50   ~ 0
+VDD_4G_3.3V
+$Comp
+L power:GND #PWR?
+U 1 1 5E0EBB85
+P 10050 4000
+F 0 "#PWR?" H 10050 3750 50  0001 C CNN
+F 1 "GND" H 10055 3827 50  0000 C CNN
+F 2 "" H 10050 4000 50  0001 C CNN
+F 3 "" H 10050 4000 50  0001 C CNN
+	1    10050 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 4000 10050 4000
+Connection ~ 10050 4000
+Wire Wire Line
+	10050 4000 9750 4000
+Wire Wire Line
+	10350 3700 9750 3700
+Connection ~ 9200 3700
+Connection ~ 9750 3700
+Wire Wire Line
+	9750 3700 9200 3700
+$EndSCHEMATC

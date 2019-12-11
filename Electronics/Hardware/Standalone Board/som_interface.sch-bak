@@ -1,0 +1,1203 @@
+EESchema Schematic File Version 4
+LIBS:Standalone Board-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 2309411-2:2309411-2 J?
+U 1 1 5DF0E808
+P 2300 4100
+AR Path="/5DF0E808" Ref="J?"  Part="1" 
+AR Path="/5DF06080/5DF0E808" Ref="J1"  Part="1" 
+F 0 "J1" H 2300 7867 50  0000 C CNN
+F 1 "2309411-2" H 2300 7776 50  0000 C CNN
+F 2 "2309411-2:TE_2309411-2" H 2300 4100 50  0001 L BNN
+F 3 "2309411-2" H 2300 4100 50  0001 L BNN
+F 4 "Socket" H 2300 4100 50  0001 L BNN "Champ4"
+F 5 "Compliant" H 2300 4100 50  0001 L BNN "Champ5"
+F 6 "None" H 2300 4100 50  0001 L BNN "Champ6"
+F 7 "DDR4 SODIMM 260P 8.0H STD" H 2300 4100 50  0001 L BNN "Champ7"
+F 8 "https://www.te.com/usa-en/product-2309411-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 2300 4100 50  0001 L BNN "Champ8"
+F 9 "260" H 2300 4100 50  0001 L BNN "Champ9"
+F 10 "TE Connectivity" H 2300 4100 50  0001 L BNN "Champ10"
+F 11 "2309411-2" H 2300 4100 50  0001 L BNN "Champ11"
+F 12 "Unavailable" H 2300 4100 50  0001 L BNN "Champ12"
+F 13 "None" H 2300 4100 50  0001 L BNN "Champ13"
+F 14 ".5 mm[.0197 in]" H 2300 4100 50  0001 L BNN "Champ14"
+	1    2300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2309411-2:2309411-2 J?
+U 2 1 5DF0E819
+P 5200 4000
+AR Path="/5DF0E819" Ref="J?"  Part="2" 
+AR Path="/5DF06080/5DF0E819" Ref="J1"  Part="2" 
+F 0 "J1" H 5200 7267 50  0000 C CNN
+F 1 "2309411-2" H 5200 7176 50  0000 C CNN
+F 2 "2309411-2:TE_2309411-2" H 5200 4000 50  0001 L BNN
+F 3 "2309411-2" H 5200 4000 50  0001 L BNN
+F 4 "Socket" H 5200 4000 50  0001 L BNN "Champ4"
+F 5 "Compliant" H 5200 4000 50  0001 L BNN "Champ5"
+F 6 "None" H 5200 4000 50  0001 L BNN "Champ6"
+F 7 "DDR4 SODIMM 260P 8.0H STD" H 5200 4000 50  0001 L BNN "Champ7"
+F 8 "https://www.te.com/usa-en/product-2309411-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 5200 4000 50  0001 L BNN "Champ8"
+F 9 "260" H 5200 4000 50  0001 L BNN "Champ9"
+F 10 "TE Connectivity" H 5200 4000 50  0001 L BNN "Champ10"
+F 11 "2309411-2" H 5200 4000 50  0001 L BNN "Champ11"
+F 12 "Unavailable" H 5200 4000 50  0001 L BNN "Champ12"
+F 13 "None" H 5200 4000 50  0001 L BNN "Champ13"
+F 14 ".5 mm[.0197 in]" H 5200 4000 50  0001 L BNN "Champ14"
+	2    5200 4000
+	1    0    0    -1  
+$EndComp
+Text HLabel 1800 600  0    50   Input ~ 0
+VCC_IN
+Wire Wire Line
+	1800 600  1800 700 
+Connection ~ 1800 700 
+Wire Wire Line
+	1800 700  1800 800 
+Connection ~ 1800 800 
+Wire Wire Line
+	1800 800  1800 900 
+Text HLabel 2800 600  2    50   Input ~ 0
+VCC_IN
+Wire Wire Line
+	2800 900  2800 800 
+Connection ~ 2800 700 
+Wire Wire Line
+	2800 700  2800 600 
+Connection ~ 2800 800 
+Wire Wire Line
+	2800 800  2800 700 
+$Comp
+L power:GND #PWR?
+U 1 1 5DF3DFDF
+P 2800 1050
+F 0 "#PWR?" H 2800 800 50  0001 C CNN
+F 1 "GND" V 2805 922 50  0000 R CNN
+F 2 "" H 2800 1050 50  0001 C CNN
+F 3 "" H 2800 1050 50  0001 C CNN
+	1    2800 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF3E854
+P 1800 1050
+F 0 "#PWR?" H 1800 800 50  0001 C CNN
+F 1 "GND" V 1805 922 50  0000 R CNN
+F 2 "" H 1800 1050 50  0001 C CNN
+F 3 "" H 1800 1050 50  0001 C CNN
+	1    1800 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 1000 1800 1050
+Connection ~ 1800 1050
+Wire Wire Line
+	1800 1050 1800 1100
+Wire Wire Line
+	2800 1000 2800 1050
+Connection ~ 2800 1050
+Wire Wire Line
+	2800 1050 2800 1100
+Text HLabel 1250 1200 0    50   Output ~ 0
+VCC5V0_SYS
+Wire Wire Line
+	1800 1200 1800 1300
+Connection ~ 1800 1300
+Wire Wire Line
+	1800 1300 1800 1400
+Connection ~ 1800 1400
+Wire Wire Line
+	1800 1400 1800 1500
+Text Notes 9300 1050 0    50   ~ 0
+VCC_IN : 12V power input
+Text Notes 9300 1450 0    50   ~ 0
+VCC5V0_SYS :\n5V Power Output2A max. \nAuto on when system power on, \nand off when system power off. 
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5DF55675
+P 1250 1200
+F 0 "#FLG?" H 1250 1275 50  0001 C CNN
+F 1 "PWR_FLAG" H 1250 1373 50  0000 C CNN
+F 2 "" H 1250 1200 50  0001 C CNN
+F 3 "~" H 1250 1200 50  0001 C CNN
+	1    1250 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1200 1250 1200
+Connection ~ 1800 1200
+Text HLabel 1250 1600 0    50   Output ~ 0
+VCC3V0_SYS
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5DF65258
+P 1250 1600
+F 0 "#FLG?" H 1250 1675 50  0001 C CNN
+F 1 "PWR_FLAG" H 1250 1773 50  0000 C CNN
+F 2 "" H 1250 1600 50  0001 C CNN
+F 3 "~" H 1250 1600 50  0001 C CNN
+	1    1250 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1600 1800 1600
+Wire Wire Line
+	1800 1900 1800 1800
+Connection ~ 1800 1600
+Connection ~ 1800 1700
+Wire Wire Line
+	1800 1700 1800 1600
+Connection ~ 1800 1800
+Wire Wire Line
+	1800 1800 1800 1700
+Text Notes 9300 1850 0    50   ~ 0
+VCC3V3_SYS :\n3.3V Power Output 1A max.\nAuto on when system power on,\nand off when system power off. 
+Text HLabel 1250 2000 0    50   Output ~ 0
+VCC_1V8
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5DFA079A
+P 1250 2000
+F 0 "#FLG?" H 1250 2075 50  0001 C CNN
+F 1 "PWR_FLAG" H 1250 2173 50  0000 C CNN
+F 2 "" H 1250 2000 50  0001 C CNN
+F 3 "~" H 1250 2000 50  0001 C CNN
+	1    1250 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2000 1250 2000
+Wire Wire Line
+	1800 2000 1800 2100
+Connection ~ 1800 2000
+Text HLabel 1250 2200 0    50   Output ~ 0
+VCC3V3_S3
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5DFA807F
+P 1250 2200
+F 0 "#FLG?" H 1250 2275 50  0001 C CNN
+F 1 "PWR_FLAG" H 1250 2350 50  0000 C CNN
+F 2 "" H 1250 2200 50  0001 C CNN
+F 3 "~" H 1250 2200 50  0001 C CNN
+	1    1250 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2200 1250 2200
+Text Notes 9300 2250 0    50   ~ 0
+VCC_1V8 :\n1.8V Power Output 200mA max. \nAuto on when system power on, \nand off when system power off. 
+Text Notes 9300 2650 0    50   ~ 0
+VCC3V3_S3 :\n3.3V Power Output 100mA max. \nAuto on when system power on, \nand off when system sleep or power off. 
+$Comp
+L power:GND #PWR?
+U 1 1 5DFBFA25
+P 1800 2300
+F 0 "#PWR?" H 1800 2050 50  0001 C CNN
+F 1 "GND" V 1805 2172 50  0000 R CNN
+F 2 "" H 1800 2300 50  0001 C CNN
+F 3 "" H 1800 2300 50  0001 C CNN
+	1    1800 2300
+	0    1    1    0   
+$EndComp
+NoConn ~ 1800 2400
+NoConn ~ 1800 2500
+NoConn ~ 1800 2600
+NoConn ~ 1800 2700
+NoConn ~ 1800 2800
+NoConn ~ 1800 2900
+NoConn ~ 1800 3000
+$Comp
+L power:GND #PWR?
+U 1 1 5DFC5CBC
+P 1800 3100
+F 0 "#PWR?" H 1800 2850 50  0001 C CNN
+F 1 "GND" V 1805 2972 50  0000 R CNN
+F 2 "" H 1800 3100 50  0001 C CNN
+F 3 "" H 1800 3100 50  0001 C CNN
+	1    1800 3100
+	0    1    1    0   
+$EndComp
+Text HLabel 1800 3200 0    50   Output ~ 0
+I2C1_SCL
+Text HLabel 1800 3300 0    50   BiDi ~ 0
+I2C1_SDA
+Text HLabel 1800 3500 0    50   Output ~ 0
+I2C2_SCL
+Text HLabel 1800 3400 0    50   BiDi ~ 0
+I2C2_SDA
+Text HLabel 1800 3600 0    50   Output ~ 0
+I2C7_SCL_HDMI
+Text HLabel 1800 3700 0    50   BiDi ~ 0
+I2C7_SDA_HDMI
+$Comp
+L power:GND #PWR?
+U 1 1 5DFD7B0E
+P 1800 3800
+F 0 "#PWR?" H 1800 3550 50  0001 C CNN
+F 1 "GND" V 1805 3672 50  0000 R CNN
+F 2 "" H 1800 3800 50  0001 C CNN
+F 3 "" H 1800 3800 50  0001 C CNN
+	1    1800 3800
+	0    1    1    0   
+$EndComp
+Text HLabel 1800 3900 0    50   Output ~ 0
+I2S0_SCLK
+Text HLabel 1800 4000 0    50   Output ~ 0
+I2S0_LRCK_RX
+Text HLabel 1800 4100 0    50   Output ~ 0
+I2S0_LRCK_TX
+Text HLabel 1800 4200 0    50   Input ~ 0
+I2S0_SDI0
+Text HLabel 1800 4300 0    50   BiDi ~ 0
+I2S0_SDI1SDO3
+Text HLabel 1800 4400 0    50   BiDi ~ 0
+I2S0_SDI2SDO2
+Text HLabel 1800 4500 0    50   BiDi ~ 0
+I2S0_SDI3SDO1
+Text HLabel 1800 4600 0    50   Output ~ 0
+I2S0_SDO0
+$Comp
+L power:GND #PWR?
+U 1 1 5DFEF28D
+P 1800 4700
+F 0 "#PWR?" H 1800 4450 50  0001 C CNN
+F 1 "GND" V 1805 4572 50  0000 R CNN
+F 2 "" H 1800 4700 50  0001 C CNN
+F 3 "" H 1800 4700 50  0001 C CNN
+	1    1800 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DFFAB0C
+P 4700 6900
+F 0 "#PWR?" H 4700 6650 50  0001 C CNN
+F 1 "GND" V 4705 6772 50  0000 R CNN
+F 2 "" H 4700 6900 50  0001 C CNN
+F 3 "" H 4700 6900 50  0001 C CNN
+	1    4700 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DFFEC94
+P 5700 6700
+F 0 "#PWR?" H 5700 6450 50  0001 C CNN
+F 1 "GND" V 5705 6572 50  0000 R CNN
+F 2 "" H 5700 6700 50  0001 C CNN
+F 3 "" H 5700 6700 50  0001 C CNN
+	1    5700 6700
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 5700 6600
+NoConn ~ 5700 6500
+$Comp
+L power:GND #PWR?
+U 1 1 5E008870
+P 5700 6400
+F 0 "#PWR?" H 5700 6150 50  0001 C CNN
+F 1 "GND" V 5705 6272 50  0000 R CNN
+F 2 "" H 5700 6400 50  0001 C CNN
+F 3 "" H 5700 6400 50  0001 C CNN
+	1    5700 6400
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 5700 6200
+NoConn ~ 5700 6300
+$Comp
+L power:GND #PWR?
+U 1 1 5E00C339
+P 5700 6100
+F 0 "#PWR?" H 5700 5850 50  0001 C CNN
+F 1 "GND" V 5705 5972 50  0000 R CNN
+F 2 "" H 5700 6100 50  0001 C CNN
+F 3 "" H 5700 6100 50  0001 C CNN
+	1    5700 6100
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 5700 5900
+NoConn ~ 5700 6000
+$Comp
+L power:GND #PWR?
+U 1 1 5E014544
+P 5700 5800
+F 0 "#PWR?" H 5700 5550 50  0001 C CNN
+F 1 "GND" V 5705 5672 50  0000 R CNN
+F 2 "" H 5700 5800 50  0001 C CNN
+F 3 "" H 5700 5800 50  0001 C CNN
+	1    5700 5800
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 5700 5700
+NoConn ~ 5700 5600
+$Comp
+L power:GND #PWR?
+U 1 1 5E01C969
+P 5700 5500
+F 0 "#PWR?" H 5700 5250 50  0001 C CNN
+F 1 "GND" V 5705 5372 50  0000 R CNN
+F 2 "" H 5700 5500 50  0001 C CNN
+F 3 "" H 5700 5500 50  0001 C CNN
+	1    5700 5500
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 5700 5300
+NoConn ~ 5700 5400
+$Comp
+L power:GND #PWR?
+U 1 1 5E030B2D
+P 5700 5200
+F 0 "#PWR?" H 5700 4950 50  0001 C CNN
+F 1 "GND" V 5705 5072 50  0000 R CNN
+F 2 "" H 5700 5200 50  0001 C CNN
+F 3 "" H 5700 5200 50  0001 C CNN
+	1    5700 5200
+	0    -1   -1   0   
+$EndComp
+Text HLabel 5700 5000 2    50   Output ~ 0
+PCIE_REF_CLK_N
+Text HLabel 5700 5100 2    50   Output ~ 0
+PCIE_REF_CLK_P
+Text HLabel 5700 4800 2    50   Output ~ 0
+PCIE_TX0_P
+Text HLabel 5700 4700 2    50   Output ~ 0
+PCIE_TX0_N
+$Comp
+L power:GND #PWR?
+U 1 1 5E04A661
+P 5700 4900
+F 0 "#PWR?" H 5700 4650 50  0001 C CNN
+F 1 "GND" V 5705 4772 50  0000 R CNN
+F 2 "" H 5700 4900 50  0001 C CNN
+F 3 "" H 5700 4900 50  0001 C CNN
+	1    5700 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E04F40D
+P 5700 4600
+F 0 "#PWR?" H 5700 4350 50  0001 C CNN
+F 1 "GND" V 5705 4472 50  0000 R CNN
+F 2 "" H 5700 4600 50  0001 C CNN
+F 3 "" H 5700 4600 50  0001 C CNN
+	1    5700 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E04FC6F
+P 5700 4300
+F 0 "#PWR?" H 5700 4050 50  0001 C CNN
+F 1 "GND" V 5705 4172 50  0000 R CNN
+F 2 "" H 5700 4300 50  0001 C CNN
+F 3 "" H 5700 4300 50  0001 C CNN
+	1    5700 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E050465
+P 5700 4000
+F 0 "#PWR?" H 5700 3750 50  0001 C CNN
+F 1 "GND" V 5705 3872 50  0000 R CNN
+F 2 "" H 5700 4000 50  0001 C CNN
+F 3 "" H 5700 4000 50  0001 C CNN
+	1    5700 4000
+	0    -1   -1   0   
+$EndComp
+Text HLabel 5700 4200 2    50   Output ~ 0
+PCIE_TX1_P
+Text HLabel 5700 4100 2    50   Output ~ 0
+PCIE_TX1_N
+$Comp
+L power:GND #PWR?
+U 1 1 5E061CAA
+P 5700 3700
+F 0 "#PWR?" H 5700 3450 50  0001 C CNN
+F 1 "GND" V 5705 3572 50  0000 R CNN
+F 2 "" H 5700 3700 50  0001 C CNN
+F 3 "" H 5700 3700 50  0001 C CNN
+	1    5700 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E068606
+P 5700 3400
+F 0 "#PWR?" H 5700 3150 50  0001 C CNN
+F 1 "GND" V 5705 3272 50  0000 R CNN
+F 2 "" H 5700 3400 50  0001 C CNN
+F 3 "" H 5700 3400 50  0001 C CNN
+	1    5700 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E06BE03
+P 5700 3100
+F 0 "#PWR?" H 5700 2850 50  0001 C CNN
+F 1 "GND" V 5705 2972 50  0000 R CNN
+F 2 "" H 5700 3100 50  0001 C CNN
+F 3 "" H 5700 3100 50  0001 C CNN
+	1    5700 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E06DC99
+P 5700 2800
+F 0 "#PWR?" H 5700 2550 50  0001 C CNN
+F 1 "GND" V 5705 2672 50  0000 R CNN
+F 2 "" H 5700 2800 50  0001 C CNN
+F 3 "" H 5700 2800 50  0001 C CNN
+	1    5700 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E071EA3
+P 5700 2500
+F 0 "#PWR?" H 5700 2250 50  0001 C CNN
+F 1 "GND" V 5705 2372 50  0000 R CNN
+F 2 "" H 5700 2500 50  0001 C CNN
+F 3 "" H 5700 2500 50  0001 C CNN
+	1    5700 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E073B00
+P 5700 2200
+F 0 "#PWR?" H 5700 1950 50  0001 C CNN
+F 1 "GND" V 5705 2072 50  0000 R CNN
+F 2 "" H 5700 2200 50  0001 C CNN
+F 3 "" H 5700 2200 50  0001 C CNN
+	1    5700 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E080A89
+P 5700 1000
+F 0 "#PWR?" H 5700 750 50  0001 C CNN
+F 1 "GND" V 5705 872 50  0000 R CNN
+F 2 "" H 5700 1000 50  0001 C CNN
+F 3 "" H 5700 1000 50  0001 C CNN
+	1    5700 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0813A8
+P 5700 1300
+F 0 "#PWR?" H 5700 1050 50  0001 C CNN
+F 1 "GND" V 5705 1172 50  0000 R CNN
+F 2 "" H 5700 1300 50  0001 C CNN
+F 3 "" H 5700 1300 50  0001 C CNN
+	1    5700 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E081C14
+P 5700 1600
+F 0 "#PWR?" H 5700 1350 50  0001 C CNN
+F 1 "GND" V 5705 1472 50  0000 R CNN
+F 2 "" H 5700 1600 50  0001 C CNN
+F 3 "" H 5700 1600 50  0001 C CNN
+	1    5700 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0823EF
+P 5700 1900
+F 0 "#PWR?" H 5700 1650 50  0001 C CNN
+F 1 "GND" V 5705 1772 50  0000 R CNN
+F 2 "" H 5700 1900 50  0001 C CNN
+F 3 "" H 5700 1900 50  0001 C CNN
+	1    5700 1900
+	0    -1   -1   0   
+$EndComp
+Text HLabel 5700 3600 2    50   Output ~ 0
+PCIE_TX2_P
+Text HLabel 5700 3500 2    50   Output ~ 0
+PCIE_TX2_N
+Text HLabel 5700 3300 2    50   Input ~ 0
+PCIE_RX2_P
+Text HLabel 5700 3200 2    50   Input ~ 0
+PCIE_RX2_N
+Text HLabel 5700 3000 2    50   Output ~ 0
+PCIE_TX3_P
+Text HLabel 5700 2900 2    50   Output ~ 0
+PCIE_TX3_N
+Text HLabel 5700 2700 2    50   Input ~ 0
+PCIE_RX3_P
+Text HLabel 5700 2600 2    50   Input ~ 0
+PCIE_RX3_N
+Text HLabel 5700 2400 2    50   Output ~ 0
+MIPI_TX0_D0_P
+Text HLabel 5700 2300 2    50   Output ~ 0
+MIPI_TX0_D0_N
+Text HLabel 5700 2100 2    50   Output ~ 0
+MIPI_TX0_D1_P
+Text HLabel 5700 2000 2    50   Output ~ 0
+MIPI_TX0_D1_N
+Text HLabel 5700 4500 2    50   Input ~ 0
+PCIE_RX0_P
+Text HLabel 5700 4400 2    50   Input ~ 0
+PCIE_RX0_N
+Text HLabel 5700 3900 2    50   Input ~ 0
+PCIE_RX1_P
+Text HLabel 5700 3800 2    50   Input ~ 0
+PCIE_RX1_N
+Text HLabel 5700 1800 2    50   Output ~ 0
+MIPI_TX0_CLK_P
+Text HLabel 5700 1700 2    50   Output ~ 0
+MIPI_TX0_CLK_N
+Text HLabel 5700 1500 2    50   Output ~ 0
+MIPI_TX0_D2_P
+Text HLabel 5700 1400 2    50   Output ~ 0
+MIPI_TX0_D2_N
+Text HLabel 5700 1200 2    50   Output ~ 0
+MIPI_TX0_D3_P
+Text HLabel 5700 1100 2    50   Output ~ 0
+MIPI_TX0_D3_N
+NoConn ~ 4700 6600
+NoConn ~ 4700 6500
+NoConn ~ 4700 6300
+NoConn ~ 4700 6200
+NoConn ~ 4700 6000
+NoConn ~ 4700 5900
+NoConn ~ 4700 5700
+NoConn ~ 4700 5600
+NoConn ~ 4700 5300
+NoConn ~ 4700 5400
+$Comp
+L power:GND #PWR?
+U 1 1 5E114B83
+P 4700 5200
+F 0 "#PWR?" H 4700 4950 50  0001 C CNN
+F 1 "GND" V 4705 5072 50  0000 R CNN
+F 2 "" H 4700 5200 50  0001 C CNN
+F 3 "" H 4700 5200 50  0001 C CNN
+	1    4700 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1228C9
+P 4700 5500
+F 0 "#PWR?" H 4700 5250 50  0001 C CNN
+F 1 "GND" V 4705 5372 50  0000 R CNN
+F 2 "" H 4700 5500 50  0001 C CNN
+F 3 "" H 4700 5500 50  0001 C CNN
+	1    4700 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1231A3
+P 4700 5800
+F 0 "#PWR?" H 4700 5550 50  0001 C CNN
+F 1 "GND" V 4705 5672 50  0000 R CNN
+F 2 "" H 4700 5800 50  0001 C CNN
+F 3 "" H 4700 5800 50  0001 C CNN
+	1    4700 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E12557D
+P 4700 6100
+F 0 "#PWR?" H 4700 5850 50  0001 C CNN
+F 1 "GND" V 4705 5972 50  0000 R CNN
+F 2 "" H 4700 6100 50  0001 C CNN
+F 3 "" H 4700 6100 50  0001 C CNN
+	1    4700 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E125CF9
+P 4700 6400
+F 0 "#PWR?" H 4700 6150 50  0001 C CNN
+F 1 "GND" V 4705 6272 50  0000 R CNN
+F 2 "" H 4700 6400 50  0001 C CNN
+F 3 "" H 4700 6400 50  0001 C CNN
+	1    4700 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E12649B
+P 4700 6700
+F 0 "#PWR?" H 4700 6450 50  0001 C CNN
+F 1 "GND" V 4705 6572 50  0000 R CNN
+F 2 "" H 4700 6700 50  0001 C CNN
+F 3 "" H 4700 6700 50  0001 C CNN
+	1    4700 6700
+	0    1    1    0   
+$EndComp
+Text HLabel 4700 5000 0    50   BiDi ~ 0
+USB_HOST1_D_P
+Text HLabel 4700 5100 0    50   BiDi ~ 0
+USB_HOST1_D_N
+Text HLabel 4700 4700 0    50   BiDi ~ 0
+USB_HOST0_D_P
+Text HLabel 4700 4800 0    50   BiDi ~ 0
+USB_HOST0_D_N
+$Comp
+L power:GND #PWR?
+U 1 1 5E15A617
+P 4700 4600
+F 0 "#PWR?" H 4700 4350 50  0001 C CNN
+F 1 "GND" V 4705 4472 50  0000 R CNN
+F 2 "" H 4700 4600 50  0001 C CNN
+F 3 "" H 4700 4600 50  0001 C CNN
+	1    4700 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E15A61D
+P 4700 4900
+F 0 "#PWR?" H 4700 4650 50  0001 C CNN
+F 1 "GND" V 4705 4772 50  0000 R CNN
+F 2 "" H 4700 4900 50  0001 C CNN
+F 3 "" H 4700 4900 50  0001 C CNN
+	1    4700 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E162D5B
+P 4700 4200
+F 0 "#PWR?" H 4700 3950 50  0001 C CNN
+F 1 "GND" V 4705 4072 50  0000 R CNN
+F 2 "" H 4700 4200 50  0001 C CNN
+F 3 "" H 4700 4200 50  0001 C CNN
+	1    4700 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1744BC
+P 4700 3900
+F 0 "#PWR?" H 4700 3650 50  0001 C CNN
+F 1 "GND" V 4705 3772 50  0000 R CNN
+F 2 "" H 4700 3900 50  0001 C CNN
+F 3 "" H 4700 3900 50  0001 C CNN
+	1    4700 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E174C8A
+P 4700 3600
+F 0 "#PWR?" H 4700 3350 50  0001 C CNN
+F 1 "GND" V 4705 3472 50  0000 R CNN
+F 2 "" H 4700 3600 50  0001 C CNN
+F 3 "" H 4700 3600 50  0001 C CNN
+	1    4700 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E178838
+P 4700 3300
+F 0 "#PWR?" H 4700 3050 50  0001 C CNN
+F 1 "GND" V 4705 3172 50  0000 R CNN
+F 2 "" H 4700 3300 50  0001 C CNN
+F 3 "" H 4700 3300 50  0001 C CNN
+	1    4700 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E17B4AD
+P 4700 3000
+F 0 "#PWR?" H 4700 2750 50  0001 C CNN
+F 1 "GND" V 4705 2872 50  0000 R CNN
+F 2 "" H 4700 3000 50  0001 C CNN
+F 3 "" H 4700 3000 50  0001 C CNN
+	1    4700 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E17E9A3
+P 4700 2700
+F 0 "#PWR?" H 4700 2450 50  0001 C CNN
+F 1 "GND" V 4705 2572 50  0000 R CNN
+F 2 "" H 4700 2700 50  0001 C CNN
+F 3 "" H 4700 2700 50  0001 C CNN
+	1    4700 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E181AB7
+P 4700 2400
+F 0 "#PWR?" H 4700 2150 50  0001 C CNN
+F 1 "GND" V 4705 2272 50  0000 R CNN
+F 2 "" H 4700 2400 50  0001 C CNN
+F 3 "" H 4700 2400 50  0001 C CNN
+	1    4700 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E18598F
+P 4700 2100
+F 0 "#PWR?" H 4700 1850 50  0001 C CNN
+F 1 "GND" V 4705 1972 50  0000 R CNN
+F 2 "" H 4700 2100 50  0001 C CNN
+F 3 "" H 4700 2100 50  0001 C CNN
+	1    4700 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E18C837
+P 4700 1800
+F 0 "#PWR?" H 4700 1550 50  0001 C CNN
+F 1 "GND" V 4705 1672 50  0000 R CNN
+F 2 "" H 4700 1800 50  0001 C CNN
+F 3 "" H 4700 1800 50  0001 C CNN
+	1    4700 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E190CE9
+P 4700 1500
+F 0 "#PWR?" H 4700 1250 50  0001 C CNN
+F 1 "GND" V 4705 1372 50  0000 R CNN
+F 2 "" H 4700 1500 50  0001 C CNN
+F 3 "" H 4700 1500 50  0001 C CNN
+	1    4700 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E194C2D
+P 4700 1200
+F 0 "#PWR?" H 4700 950 50  0001 C CNN
+F 1 "GND" V 4705 1072 50  0000 R CNN
+F 2 "" H 4700 1200 50  0001 C CNN
+F 3 "" H 4700 1200 50  0001 C CNN
+	1    4700 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E19869F
+P 1800 7700
+F 0 "#PWR?" H 1800 7450 50  0001 C CNN
+F 1 "GND" V 1805 7572 50  0000 R CNN
+F 2 "" H 1800 7700 50  0001 C CNN
+F 3 "" H 1800 7700 50  0001 C CNN
+	1    1800 7700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E198B43
+P 1800 7400
+F 0 "#PWR?" H 1800 7150 50  0001 C CNN
+F 1 "GND" V 1805 7272 50  0000 R CNN
+F 2 "" H 1800 7400 50  0001 C CNN
+F 3 "" H 1800 7400 50  0001 C CNN
+	1    1800 7400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1993E7
+P 1800 7100
+F 0 "#PWR?" H 1800 6850 50  0001 C CNN
+F 1 "GND" V 1805 6972 50  0000 R CNN
+F 2 "" H 1800 7100 50  0001 C CNN
+F 3 "" H 1800 7100 50  0001 C CNN
+	1    1800 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E19B8F5
+P 1800 6800
+F 0 "#PWR?" H 1800 6550 50  0001 C CNN
+F 1 "GND" V 1805 6672 50  0000 R CNN
+F 2 "" H 1800 6800 50  0001 C CNN
+F 3 "" H 1800 6800 50  0001 C CNN
+	1    1800 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E19D4B5
+P 1800 6500
+F 0 "#PWR?" H 1800 6250 50  0001 C CNN
+F 1 "GND" V 1805 6372 50  0000 R CNN
+F 2 "" H 1800 6500 50  0001 C CNN
+F 3 "" H 1800 6500 50  0001 C CNN
+	1    1800 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E19DB14
+P 1800 6200
+F 0 "#PWR?" H 1800 5950 50  0001 C CNN
+F 1 "GND" V 1805 6072 50  0000 R CNN
+F 2 "" H 1800 6200 50  0001 C CNN
+F 3 "" H 1800 6200 50  0001 C CNN
+	1    1800 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E19E069
+P 1800 6000
+F 0 "#PWR?" H 1800 5750 50  0001 C CNN
+F 1 "GND" V 1805 5872 50  0000 R CNN
+F 2 "" H 1800 6000 50  0001 C CNN
+F 3 "" H 1800 6000 50  0001 C CNN
+	1    1800 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E19FFE8
+P 1800 4900
+F 0 "#PWR?" H 1800 4650 50  0001 C CNN
+F 1 "GND" V 1805 4772 50  0000 R CNN
+F 2 "" H 1800 4900 50  0001 C CNN
+F 3 "" H 1800 4900 50  0001 C CNN
+	1    1800 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1A528C
+P 2800 1700
+F 0 "#PWR?" H 2800 1450 50  0001 C CNN
+F 1 "GND" V 2805 1572 50  0000 R CNN
+F 2 "" H 2800 1700 50  0001 C CNN
+F 3 "" H 2800 1700 50  0001 C CNN
+	1    2800 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1A61B4
+P 2800 2100
+F 0 "#PWR?" H 2800 1850 50  0001 C CNN
+F 1 "GND" V 2805 1972 50  0000 R CNN
+F 2 "" H 2800 2100 50  0001 C CNN
+F 3 "" H 2800 2100 50  0001 C CNN
+	1    2800 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1AC34B
+P 2800 3700
+F 0 "#PWR?" H 2800 3450 50  0001 C CNN
+F 1 "GND" V 2805 3572 50  0000 R CNN
+F 2 "" H 2800 3700 50  0001 C CNN
+F 3 "" H 2800 3700 50  0001 C CNN
+	1    2800 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1B6928
+P 2800 4200
+F 0 "#PWR?" H 2800 3950 50  0001 C CNN
+F 1 "GND" V 2805 4072 50  0000 R CNN
+F 2 "" H 2800 4200 50  0001 C CNN
+F 3 "" H 2800 4200 50  0001 C CNN
+	1    2800 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1BA7FD
+P 2800 4800
+F 0 "#PWR?" H 2800 4550 50  0001 C CNN
+F 1 "GND" V 2805 4672 50  0000 R CNN
+F 2 "" H 2800 4800 50  0001 C CNN
+F 3 "" H 2800 4800 50  0001 C CNN
+	1    2800 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1BC3EF
+P 2800 5100
+F 0 "#PWR?" H 2800 4850 50  0001 C CNN
+F 1 "GND" V 2805 4972 50  0000 R CNN
+F 2 "" H 2800 5100 50  0001 C CNN
+F 3 "" H 2800 5100 50  0001 C CNN
+	1    2800 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1BD895
+P 2800 5300
+F 0 "#PWR?" H 2800 5050 50  0001 C CNN
+F 1 "GND" V 2805 5172 50  0000 R CNN
+F 2 "" H 2800 5300 50  0001 C CNN
+F 3 "" H 2800 5300 50  0001 C CNN
+	1    2800 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1C2BD0
+P 2800 6000
+F 0 "#PWR?" H 2800 5750 50  0001 C CNN
+F 1 "GND" V 2805 5872 50  0000 R CNN
+F 2 "" H 2800 6000 50  0001 C CNN
+F 3 "" H 2800 6000 50  0001 C CNN
+	1    2800 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1C3248
+P 2800 6200
+F 0 "#PWR?" H 2800 5950 50  0001 C CNN
+F 1 "GND" V 2805 6072 50  0000 R CNN
+F 2 "" H 2800 6200 50  0001 C CNN
+F 3 "" H 2800 6200 50  0001 C CNN
+	1    2800 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1C3751
+P 2800 6500
+F 0 "#PWR?" H 2800 6250 50  0001 C CNN
+F 1 "GND" V 2805 6372 50  0000 R CNN
+F 2 "" H 2800 6500 50  0001 C CNN
+F 3 "" H 2800 6500 50  0001 C CNN
+	1    2800 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1C5316
+P 2800 6800
+F 0 "#PWR?" H 2800 6550 50  0001 C CNN
+F 1 "GND" V 2805 6672 50  0000 R CNN
+F 2 "" H 2800 6800 50  0001 C CNN
+F 3 "" H 2800 6800 50  0001 C CNN
+	1    2800 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1C5983
+P 2800 7100
+F 0 "#PWR?" H 2800 6850 50  0001 C CNN
+F 1 "GND" V 2805 6972 50  0000 R CNN
+F 2 "" H 2800 7100 50  0001 C CNN
+F 3 "" H 2800 7100 50  0001 C CNN
+	1    2800 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1C7ABA
+P 2800 7400
+F 0 "#PWR?" H 2800 7150 50  0001 C CNN
+F 1 "GND" V 2805 7272 50  0000 R CNN
+F 2 "" H 2800 7400 50  0001 C CNN
+F 3 "" H 2800 7400 50  0001 C CNN
+	1    2800 7400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1C804C
+P 2800 7700
+F 0 "#PWR?" H 2800 7450 50  0001 C CNN
+F 1 "GND" V 2805 7572 50  0000 R CNN
+F 2 "" H 2800 7700 50  0001 C CNN
+F 3 "" H 2800 7700 50  0001 C CNN
+	1    2800 7700
+	0    -1   -1   0   
+$EndComp
+Text HLabel 1800 4800 0    50   Output ~ 0
+I2S_CLK
+Text HLabel 1800 5000 0    50   Output ~ 0
+I2S1_SCLK
+Text HLabel 1800 5100 0    50   Output ~ 0
+I2S1_LRCK_TX
+Text HLabel 1800 5200 0    50   Output ~ 0
+I2S1_LRCK_TX
+Text HLabel 1800 5300 0    50   Input ~ 0
+I2S1_SDIO
+Text HLabel 1800 5400 0    50   Output ~ 0
+I2S1_SDIO0
+Text HLabel 1800 5500 0    50   Output ~ 0
+MIPI_CSI0_RST
+Text HLabel 1800 5600 0    50   Output ~ 0
+MIPI_CSI0_PWN
+Text HLabel 1800 5700 0    50   Output ~ 0
+MIPI_CSI1_RST
+Text HLabel 1800 5800 0    50   Output ~ 0
+MIPI_CSI1_PWN
+Text HLabel 1800 5900 0    50   Output ~ 0
+VCC1V8_CAM
+Text Notes 9300 2900 0    50   ~ 0
+VCC1V8_CAM :\nPower Out for Camera IO
+NoConn ~ 1800 6300
+NoConn ~ 1800 6400
+NoConn ~ 1800 6600
+NoConn ~ 1800 6700
+NoConn ~ 1800 6900
+NoConn ~ 1800 7000
+NoConn ~ 1800 7200
+NoConn ~ 1800 7300
+NoConn ~ 1800 7500
+NoConn ~ 1800 7600
+Text HLabel 1800 6100 0    50   Output ~ 0
+GPIO2_B3_CIF_CLKOUTA
+Text HLabel 2800 1200 2    50   Input ~ 0
+PWR_KEY
+Text HLabel 2800 1300 2    50   Input ~ 0
+VDC_ONOFF
+Text HLabel 2800 1400 2    50   Input ~ 0
+RTC_BATT_IN
+Text HLabel 2800 1500 2    50   Input ~ 0
+RECOVERY
+Text HLabel 2800 1600 2    50   Input ~ 0
+RESET_IN_H
+NoConn ~ 2800 2200
+NoConn ~ 2800 2300
+NoConn ~ 2800 2400
+NoConn ~ 2800 2500
+NoConn ~ 2800 2600
+NoConn ~ 2800 3600
+NoConn ~ 2800 3500
+NoConn ~ 2800 3400
+NoConn ~ 2800 3300
+NoConn ~ 2800 3200
+NoConn ~ 2800 3100
+NoConn ~ 2800 3000
+NoConn ~ 2800 2900
+NoConn ~ 2800 2800
+NoConn ~ 2800 2700
+NoConn ~ 2800 3800
+NoConn ~ 2800 3900
+NoConn ~ 2800 4000
+NoConn ~ 2800 4100
+Text HLabel 2800 4300 2    50   Input ~ 0
+HP_DET_H
+Text HLabel 2800 4400 2    50   Output ~ 0
+GPIO4_D5_LCD_BL_EN
+Text HLabel 2800 4500 2    50   Output ~ 0
+GPIO4_D6_LCD_RST_H
+NoConn ~ 2800 4600
+NoConn ~ 2800 4700
+Text HLabel 2800 4900 2    50   Output ~ 0
+PWM0_BL
+Text HLabel 2800 5000 2    50   Output ~ 0
+GPIO4_C6_PWM1
+NoConn ~ 2800 5200
+NoConn ~ 2800 5400
+NoConn ~ 2800 5500
+NoConn ~ 2800 5600
+NoConn ~ 2800 5700
+NoConn ~ 2800 5800
+NoConn ~ 2800 5900
+NoConn ~ 2800 6100
+Text Notes 9300 3650 0    50   ~ 0
+TODO :\nFan\nUart debug\nRTC\nUser leds\nHeader Pi compatible ?\nIMU 9 dof\nuart pour gps ?
+NoConn ~ 2800 1800
+NoConn ~ 2800 1900
+NoConn ~ 2800 2000
+Text HLabel 2800 6300 2    50   BiDi ~ 0
+MIPI_TX1_RX1_D0_N
+Text HLabel 2800 6400 2    50   BiDi ~ 0
+MIPI_TX1_RX1_D0_P
+Text HLabel 2800 6600 2    50   BiDi ~ 0
+MIPI_TX1_RX1_D1_N
+Text HLabel 2800 6700 2    50   BiDi ~ 0
+MIPI_TX1_RX1_D1_P
+Text HLabel 2800 6900 2    50   BiDi ~ 0
+MIPI_TX1_RX1_CLK_N
+Text HLabel 2800 7000 2    50   BiDi ~ 0
+MIPI_TX1_RX1_CLK_P
+Text HLabel 2800 7200 2    50   BiDi ~ 0
+MIPI_TX1_RX1_D2_N
+Text HLabel 2800 7300 2    50   BiDi ~ 0
+MIPI_TX1_RX1_D2_P
+Text HLabel 2800 7500 2    50   BiDi ~ 0
+MIPI_TX1_RX1_D3_N
+Text HLabel 2800 7600 2    50   BiDi ~ 0
+MIPI_TX1_RX1_D3_P
+NoConn ~ 4700 1000
+NoConn ~ 4700 1100
+NoConn ~ 4700 1300
+NoConn ~ 4700 1400
+NoConn ~ 4700 1600
+NoConn ~ 4700 1700
+NoConn ~ 4700 1900
+NoConn ~ 4700 2000
+NoConn ~ 4700 2200
+NoConn ~ 4700 2300
+Text HLabel 4700 2500 0    50   BiDi ~ 0
+TYPE-C1_D_P
+Text HLabel 4700 2600 0    50   BiDi ~ 0
+TYPE-C1_D_N
+Text HLabel 4700 2800 0    50   BiDi ~ 0
+TYPE-C1_TX1_P
+Text HLabel 4700 2900 0    50   BiDi ~ 0
+TYPE-C1_TX1_N
+Text HLabel 4700 3100 0    50   BiDi ~ 0
+TYPE-C1_RX1_P
+Text HLabel 4700 3200 0    50   BiDi ~ 0
+TYPE-C1_RX1_N
+Text HLabel 4700 3400 0    50   BiDi ~ 0
+TYPE-C1_TX2_P
+Text HLabel 4700 3500 0    50   BiDi ~ 0
+TYPE-C1_TX2_N
+Text HLabel 4700 3700 0    50   BiDi ~ 0
+TYPE-C1_RX2_P
+Text HLabel 4700 3800 0    50   BiDi ~ 0
+TYPE-C1_RX2_N
+Text HLabel 4700 4000 0    50   BiDi ~ 0
+TYPE-C1_RX2_P
+Text HLabel 4700 4100 0    50   BiDi ~ 0
+TYPE-C1_RX2_N
+Text HLabel 4700 4300 0    50   Output ~ 0
+TYPE-C1_SBU1_DC
+Text HLabel 4700 4400 0    50   Output ~ 0
+TYPE-C1_SBU2_DC
+Text HLabel 4700 4500 0    50   Input ~ 0
+TYPE-C1_U2VBUSDET
+$EndSCHEMATC
