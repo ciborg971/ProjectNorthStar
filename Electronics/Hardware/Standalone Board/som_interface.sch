@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Standalone Board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -238,10 +237,6 @@ Text HLabel 1800 3500 0    50   Output ~ 0
 I2C2_SCL
 Text HLabel 1800 3400 0    50   BiDi ~ 0
 I2C2_SDA
-Text HLabel 1800 3600 0    50   Output ~ 0
-I2C7_SCL_HDMI
-Text HLabel 1800 3700 0    50   BiDi ~ 0
-I2C7_SDA_HDMI
 $Comp
 L power:GND #PWR?
 U 1 1 5DFD7B0E
@@ -1086,8 +1081,6 @@ Text HLabel 2800 1200 2    50   Input ~ 0
 PWR_KEY
 Text HLabel 2800 1300 2    50   Input ~ 0
 VDC_ONOFF
-Text HLabel 2800 1400 2    50   Input ~ 0
-RTC_BATT_IN
 Text HLabel 2800 1500 2    50   Input ~ 0
 RECOVERY
 Text HLabel 2800 1600 2    50   Input ~ 0
@@ -1119,7 +1112,7 @@ Text HLabel 2800 4900 2    50   Output ~ 0
 PWM0_BL
 NoConn ~ 2800 5200
 Text Notes 9300 3650 0    50   ~ 0
-TODO :\nRTC\nUser leds\nHeader Pi compatible ?\nIMU 9 dof
+TODO :\nUser leds\nHeader Pi compatible ?\nIMU 9 dof
 NoConn ~ 2800 1800
 NoConn ~ 2800 1900
 NoConn ~ 2800 2000
@@ -1459,4 +1452,32 @@ Text HLabel 2800 5900 2    50   Input ~ 0
 SDMMC0_DET_L
 Text HLabel 2800 6100 2    50   Output ~ 0
 SDMMC0_CLK
+NoConn ~ 1800 3600
+NoConn ~ 1800 3700
+Text Label 2800 1400 0    50   ~ 0
+RTC_BATT_IN
+Text Label 10550 4300 2    50   ~ 0
+RTC_BATT_IN
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5DF5D410
+P 10550 4500
+F 0 "BT?" H 10668 4596 50  0000 L CNN
+F 1 "Battery_Cell" H 10668 4505 50  0000 L CNN
+F 2 "" V 10550 4560 50  0001 C CNN
+F 3 "~" V 10550 4560 50  0001 C CNN
+	1    10550 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF698CD
+P 10550 4600
+F 0 "#PWR?" H 10550 4350 50  0001 C CNN
+F 1 "GND" H 10555 4427 50  0000 C CNN
+F 2 "" H 10550 4600 50  0001 C CNN
+F 3 "" H 10550 4600 50  0001 C CNN
+	1    10550 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -4,4 +4,5 @@
   (lib (name 2290741-1)(type Legacy)(uri ${KIPRJMOD}/lib/2290741-1.lib)(options "")(descr ""))
   (lib (name MP2143DJ-LF-Z)(type Legacy)(uri ${KIPRJMOD}/lib/MP2143DJ-LF-Z.lib)(options "")(descr ""))
   (lib (name sb)(type Legacy)(uri ${KIPRJMOD}/lib/sb.lib)(options "")(descr ""))
+  (lib (name TUSB8020BIPHP)(type Legacy)(uri ${KIPRJMOD}/lib/TUSB8020BIPHP.lib)(options "")(descr ""))
 )

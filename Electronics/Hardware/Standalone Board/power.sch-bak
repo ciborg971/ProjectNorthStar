@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Standalone Board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -50,14 +49,72 @@ $EndComp
 Text Notes 9650 1200 0    50   ~ 0
 TODO :\nReverse polarity protection
 $Comp
+L power:GND #PWR?
+U 1 1 5DFA6ECC
+P 8600 900
+AR Path="/5DF06080/5DFA6ECC" Ref="#PWR?"  Part="1" 
+AR Path="/5DF7A2D8/5DFA6ECC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8600 650 50  0001 C CNN
+F 1 "GND" V 8605 772 50  0000 R CNN
+F 2 "" H 8600 900 50  0001 C CNN
+F 3 "" H 8600 900 50  0001 C CNN
+	1    8600 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DFA6ED2
+P 8600 1000
+AR Path="/5DF06080/5DFA6ED2" Ref="#PWR?"  Part="1" 
+AR Path="/5DF7A2D8/5DFA6ED2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8600 850 50  0001 C CNN
+F 1 "+3.3V" V 8615 1128 50  0000 L CNN
+F 2 "" H 8600 1000 50  0001 C CNN
+F 3 "" H 8600 1000 50  0001 C CNN
+	1    8600 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DFA6ED8
+P 8600 1100
+AR Path="/5DF06080/5DFA6ED8" Ref="#PWR?"  Part="1" 
+AR Path="/5DF7A2D8/5DFA6ED8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8600 950 50  0001 C CNN
+F 1 "+5V" V 8615 1228 50  0000 L CNN
+F 2 "" H 8600 1100 50  0001 C CNN
+F 3 "" H 8600 1100 50  0001 C CNN
+	1    8600 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
 L power:+12V #PWR?
-U 1 1 5E2B0382
-P 9150 1050
-F 0 "#PWR?" H 9150 900 50  0001 C CNN
-F 1 "+12V" H 9165 1223 50  0000 C CNN
-F 2 "" H 9150 1050 50  0001 C CNN
-F 3 "" H 9150 1050 50  0001 C CNN
-	1    9150 1050
-	1    0    0    -1  
+U 1 1 5DFA6EDE
+P 8600 1200
+AR Path="/5DF06080/5DFA6EDE" Ref="#PWR?"  Part="1" 
+AR Path="/5DF7A2D8/5DFA6EDE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8600 1050 50  0001 C CNN
+F 1 "+12V" V 8615 1328 50  0000 L CNN
+F 2 "" H 8600 1200 50  0001 C CNN
+F 3 "" H 8600 1200 50  0001 C CNN
+	1    8600 1200
+	0    -1   -1   0   
+$EndComp
+Text HLabel 8600 1400 0    50   BiDi ~ 0
+I2C_SDA
+Text HLabel 8600 1500 0    50   Input ~ 0
+I2C_SCL
+$Comp
+L power:GND #PWR?
+U 1 1 5E00FF20
+P 8600 1300
+AR Path="/5DF06080/5E00FF20" Ref="#PWR?"  Part="1" 
+AR Path="/5DF7A2D8/5E00FF20" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8600 1050 50  0001 C CNN
+F 1 "GND" V 8605 1172 50  0000 R CNN
+F 2 "" H 8600 1300 50  0001 C CNN
+F 3 "" H 8600 1300 50  0001 C CNN
+	1    8600 1300
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
