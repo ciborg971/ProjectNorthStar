@@ -1,3 +1,10 @@
 (fp_lib_table
   (lib (name 2309411-2)(type Legacy)(uri ${KIPRJMOD}/lib/2309411-2.mod)(options "")(descr ""))
+  (lib (name 2041119-1)(type Legacy)(uri ${KIPRJMOD}/lib/2041119-1.mod)(options "")(descr ""))
+  (lib (name 2290741-1)(type Legacy)(uri ${KIPRJMOD}/lib/2290741-1.mod)(options "")(descr ""))
+  (lib (name MP2143DJ-LF-Z)(type Legacy)(uri ${KIPRJMOD}/lib/MP2143DJ-LF-Z.mod)(options "")(descr ""))
+  (lib (name TUSB8020BIPHP)(type Legacy)(uri ${KIPRJMOD}/lib/TUSB8020BIPHP.mod)(options "")(descr ""))
+  (lib (name USB1100-XX-X_REVC)(type Legacy)(uri ${KIPRJMOD}/lib/USB1100-XX-X_REVC.mod)(options "")(descr ""))
+  (lib (name sb)(type KiCad)(uri ${KIPRJMOD}/lib/sb.pretty)(options "")(descr ""))
+  (lib (name BK-913)(type Legacy)(uri ${KIPRJMOD}/lib/BK-913.mod)(options "")(descr ""))
 )

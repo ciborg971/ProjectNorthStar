@@ -5,4 +5,6 @@
   (lib (name MP2143DJ-LF-Z)(type Legacy)(uri ${KIPRJMOD}/lib/MP2143DJ-LF-Z.lib)(options "")(descr ""))
   (lib (name sb)(type Legacy)(uri ${KIPRJMOD}/lib/sb.lib)(options "")(descr ""))
   (lib (name TUSB8020BIPHP)(type Legacy)(uri ${KIPRJMOD}/lib/TUSB8020BIPHP.lib)(options "")(descr ""))
+  (lib (name USB1100-XX-X_REVC)(type Legacy)(uri ${KIPRJMOD}/lib/USB1100-XX-X_REVC.lib)(options "")(descr ""))
+  (lib (name BK-913)(type Legacy)(uri ${KIPRJMOD}/lib/BK-913.lib)(options "")(descr ""))
 )
